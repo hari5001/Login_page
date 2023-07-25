@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="pngwing.com (1).png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=K2D:wght@600&display=swap');
+        body {
+            background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #800080d5, #ff04c9); 
+        }
+        .main{
+            background-color: white;
+            width: 30%;
+            height: 450px;
+            margin: auto;
+            text-align: center;
+            margin-top: 5%;
+            border-radius: 5px;
+        }
+        h1{
+            padding-top: 30px;
+            letter-spacing: 1px;
+        }
+        .input button{
+            width: 150px;
+            height: 40px;
+            margin: 10px;
+            font-size: 17px;
+            font-weight: 550;
+            letter-spacing: 1px;
+            background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #800080d5, #ff04c9); 
+            border: none;
+            border-radius: 3px;
+            color: white;
+            text-align: center;
+        }
+        input{
+            width: 290px;
+            height: 40px;
+            padding-left: 30px;
+            margin-top: 25px;
+        }
+        .fp{
+            margin-top: 5px;
+            width: auto;
+            float: left;
+            margin-left: 40px;
+        }
+        .fp a{
+            text-decoration: none;
+            color:#ff04c9;
+        }
+        .log{
+            display: block;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            margin-left: 40px;
+            margin-top: 40px;
+            background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #800080d5, #ff04c9); 
+            font-size: large;
+            color: white;
+        }
+        .last{
+            margin-top: 30px;
+        }
+        .last a{
+            text-decoration: none;
+            color: #ff04c9;
+            padding-left: 3px;
+        }
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="tit">Login Form</h1>
+        <div class="input">
+            <button type="submit" ><a href="">LOGIN</a></button>
+            <button type="submit" ><a href="">Signup</a></button>
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="psd">
+            <input type="password" name="pass" placeholder="Password">
+        </div>
+        <div class="fp"><a href="">Forget Password?</a></div>
+        <button class="log">Login</button>
+        <p class="last">Not a member?<span><a href="">Signup now</a></span></p>
+    </div>
+</body>
+</html>
