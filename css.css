@@ -6,9 +6,6 @@ background: #800080; /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #800080d5, #ff04c9); 
 }
-html{
-    height: 80%;
-}
 .main{
     min-width: 320px;
     max-width: 400px;
@@ -20,10 +17,10 @@ html{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-h1{margin: auto;
+h1{
     margin-top: 5px;
     margin-bottom: 30px;
-    width: 50%;
+    width: auto;
     text-align: center;
     letter-spacing: 1.5px;
     word-spacing: 5px;
