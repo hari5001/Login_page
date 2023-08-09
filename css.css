@@ -1,5 +1,4 @@
-
-.screen {
+body {
 
     background: #800080; /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
