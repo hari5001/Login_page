@@ -9,10 +9,15 @@ background: linear-gradient(to right, #800080d5, #ff04c9);
 .main{
     min-width :320px;
     max-width :400px;
-    margin: 5% auto;
+/*     margin: 5% auto; */
     background-color: white;
     border-radius: 5px;
     padding: 2% 2%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     /* box-sizing: content-box; */
 }
 h1{margin: auto;
