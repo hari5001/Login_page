@@ -14,8 +14,8 @@ background: linear-gradient(to right, #800080d5, #ff04c9);
 }
 
 .main{
-    min-width: 320px;
-    max-width: 450px;
+    width: 90%;
+    height: 90%;
     margin: 5% auto;
     background-color: white;
     border-radius: 5px;
