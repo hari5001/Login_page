@@ -13,8 +13,7 @@ background: linear-gradient(to right, #800080d5, #ff04c9);
     background-color: white;
     border-radius: 5px;
     padding: 2% 2%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
     /* box-sizing: content-box; */
