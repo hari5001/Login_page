@@ -1,7 +1,6 @@
 
 .screen {
-    width: 100vw;
-    height: 100vh;
+
     background: #800080; /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #800080d5, #ff04c9); 
