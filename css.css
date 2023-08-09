@@ -1,12 +1,12 @@
 body{
-    font-family: 'Roboto';
+    font-family: 'K2D';
 background: #800080; /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #800080b2, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #800080d5, #ff04c9); 
 }
 .main{
-/*     min-width: 480px; */
-    width: auto;
+    min-width: 350pxpx;
+    max-width: 400px;
     margin: 5% auto;
     background-color: white;
     border-radius: 5px;
